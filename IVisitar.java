@@ -1,0 +1,8 @@
+package ht7.main;
+/**
+ * @author moise
+ *
+ */
+public interface IVisitar<K, T> {
+	public void VisitarNodo(Association<K, T> arbol);
+}
